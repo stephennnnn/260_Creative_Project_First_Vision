@@ -64,7 +64,7 @@
         <p>20 He again forbade me to join with any of them; and many other things did he say unto me, which I cannot write at this time. When I came to myself again, I found myself lying on my back, looking up into heaven. When the light had departed, I had no strength; but soon recovering in some degree, I went home. And as I leaned up to the fireplace, mother inquired what the matter was. I replied, “Never mind, all is well—I am well enough off.” I then said to my mother, “I have learned for myself that Presbyterianism is not true.” It seems as though the adversary was aware, at a very early period of my life, that I was destined to prove a disturber and an annoyer of his kingdom; else why should the powers of darkness combine against me? Why the opposition and persecution that arose against me, almost in my infancy?</p>
       </div>
 
-      <div class="card" style="background-color: #343a40; padding: 20px; margin-top: 20px; color: white;">
+      <div class="card" style="background-color: #343a40; padding: 20px; margin-top: 20px; margin-bottom: 20px; color: white;">
         <h2 style="color: #28a745;">FOURTH ACCOUNT</h2>
         <hr style="height:1px; background-color: white;">
         <h5>Year: 1842</h5>
