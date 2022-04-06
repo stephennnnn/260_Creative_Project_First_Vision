@@ -1,15 +1,12 @@
 <template>
 <div class="wrapper">
   <div class="pictures">
-    <div class="picture" v-for="picture in pictures" :key="picture.id">
+    <div class="picture" v-for="picture in pictures" :key="picture.id" style="border: solid #343a40;">
       <div class="info">
-        <h1>{{picture.title}}</h1>
+        <h1>{{picture.author}}<br>{{picture.tenure}}</h1>
       </div>
       <div class="image">
-        <img :src="'/images/'+picture.image">
-      </div>
-      <div class="price">
-        <h2>{{picture.artist}}</h2>
+        <h1>{{picture.quote}}</h1>
       </div>
     </div>
   </div>
@@ -33,7 +30,7 @@ export default {
 }
 
 .pictures {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -42,14 +39,7 @@ export default {
 .picture {
   margin: 10px;
   margin-top: 50px;
-  width: 200px;
-}
-
-.picture img {
-  border: 2px solid #333;
-  height: 250px;
-  width: 200px;
-  object-fit: cover;
+  width: 90%;
 }
 
 .picture .image {
@@ -59,40 +49,18 @@ export default {
 }
 
 .info {
-  background: #F2921D;
-  color: #000;
-  padding: 10px 30px;
-  height: 80px;
+  background: #343a40;
+  color: white;
+  padding: 10px 10px;
 }
 
 .info h1 {
   font-size: 16px;
 }
 
-.info h2 {
-  font-size: 14px;
-}
-
 .info p {
   margin: 0px;
   font-size: 10px;
-}
-
-
-.price {
-  display: flex;
-}
-
-button {
-  height: 50px;
-  background: #000;
-  background-color: DarkRed;
-  color: white;
-  border: none;
-}
-
-.auto {
-  margin-left: auto;
 }
 
 </style>

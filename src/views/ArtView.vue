@@ -1,7 +1,12 @@
 <template>
-<div>
-  <ArtList :pictures="this.$root.$data.data" />
-</div>
+  <div class="container">
+    <div class="card" style="text-align: center; background-color: #343a40; color: white; padding: 10px; margin-top: 20px;">
+      <h2 style="color:  #28a745;">Quotes on the First Vision from LDS Prophets</h2>
+    </div>
+    <div>
+      <ArtList :pictures="this.$root.$data.data" />
+    </div>
+  </div>
 </template>
 
 <script>

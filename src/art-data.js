@@ -1,14 +1,104 @@
 let art = [{
     id: 1,
-    title: "test title",
-    artist: "test artist",
-    image: 'the_first_vision_classic.jpeg'
+    author: "Russell M. Nelson",
+    tenure: "(2018-present)",
+    quote: '“If Joseph Smith’s transcendent experience in the Sacred Grove teaches us anything, it is that the heavens are open and that God speaks to His children. The Prophet Joseph Smith set a pattern for us to follow in resolving our questions. Drawn to the promise of James that if we lack wisdom we may ask of God, the boy Joseph took his question directly to Heavenly Father. He sought personal revelation, and his seeking opened this last dispensation.In like manner, what will your seeking open for you? What wisdom do you lack? What do you feel an urgent need to know or understand? Follow the example of the Prophet Joseph. Find a quiet place where you can regularly go. Humble yourself before God. Pour out your heart to your Heavenly Father. Turn to Him for answers and for comfort” (Ensign, May 2018).',
   },
   {
     id: 2,
-    title: "test title",
-    artist: "test artist",
-    image: 'gary-smith-first-vision.jpg'
+    author: "Thomas S. Monson",
+    tenure: "(2008-2018)",
+    quote: '“Joseph reported that he knew he must either put the Lord to the test and ask Him or perhaps choose to remain in darkness forever. Early one morning he stepped into a grove, now called sacred, and knelt and prayed, having faith that God would give him the enlightenment which he so earnestly sought. Two personages appeared to Joseph — the Father and the Son — and he was told, in answer to his question, that he was to join none of the churches, for none of them was true. The Prophet Joseph Smith taught us the principle of faith — by example. His simple prayer of faith on that spring morning in 1820 brought about this marvelous work which continues today throughout the world” (Ensign, Nov. 2005).',
+  },
+  {
+    id: 3,
+    author: "Gordon B. Hinckley",
+    tenure: "(1995-2008)",
+    quote: '“That sublime occasion, the First Vision, parted the curtains through which came the restoration to earth of the Church of Christ. It came out of the wilderness of darkness, out of the bleakness of ages past into the glorious dawn of a new day. The Book of Mormon followed as another witness of the Lord Jesus Christ. His holy supernal priesthood was restored under the hands of those who held it anciently. Keys and powers were bestowed upon the Prophet and his associates. The ancient Church was again upon the earth with all of the blessings, powers, doctrines, keys, and principles of previous dispensations. It is [Christ’s] Church. It carries His name. It is governed by His priesthood. There is no other name under heaven by which men must be saved. Joseph Smith … became His great testator” (“My Redeemer Lives,” Ensign, Feb. 2001).',
+  },
+  {
+    id: 4,
+    author: "Howard W. Hunter",
+    tenure: "(1994-95)",
+    quote: '“Many times the gospel [has] been given to the world through the prophets, and each time [it has been] lost because of disobedience. In the year 1820 the silence was broken, and the Lord again appeared to a prophet. This prophet, Joseph Smith, could testify of his own positive knowledge that God lives, that Jesus is the Christ, the Son of God, a Resurrected Being, separate and distinct from the Father. He did not testify as to what he believed or what he or others thought or conjectured, but of what he knew. This knowledge came to him because God the Father and the Son appeared to him in person and spoke to him” (Conference Report, Oct. 1963).',
+  },
+  {
+    id: 5,
+    author: "Ezra Taft Benson",
+    tenure: "(1985-1994)",
+    quote: '“When God the Father and his Son Jesus Christ come to earth, as they did in 1820 when they appeared to the young boy prophet, Joseph Smith, it is not something that concerns only a handful of people. It is a message and a revelation intended for all of our Father’s children living upon the face of the earth. It was the greatest event that has ever happened in this world since the resurrection of the Master. Sometimes I think we are so close to it that we don’t fully appreciate its significance and importance and the magnitude of it” (God, Family, Country, 1974).',
+  },
+  {
+    id: 6,
+    author: "Spencer W. Kimball",
+    tenure: "(1973-1985)",
+    quote: '“Because a boy 14 years old went out in the woods to pray in New York, all of these hundreds of thousands of people come to area conferences. Because the 14-year-old boy went out in the woods to pray, having read in the scriptures, ‘If any of you lack wisdom, let him ask of God’ (James 1:5), because he did live the revelations from on high, we have The Church of Jesus Christ of Latter-day Saints. We have all of the blessings that can make us the happiest people in the whole world, because a boy of 14 went out into the woods to pray. I am grateful that Joseph found his way into the woods, and I am grateful that he knew what he was doing and that he was serious-minded enough that he could take the word of the Lord as it came to him and enlarge upon it and build this kingdom” (Conference Report, Melbourne Australia Area Conference, 1976).',
+  },
+  {
+    id: 7,
+    author: "Harold B. Lee",
+    tenure: "(1972-73)",
+    quote: '“In this dispensation, as has been the case in all previous dispensations of the gospel upon the earth, there was given through the modern prophet, Joseph Smith, the true knowledge of God and his Son, our Savior, when, as glorified personal beings who could talk with and be seen of men, they conversed with him, as though to demonstrate their tangible reality, as the dispensation of the fulness of times was ushered in, in preparation for the second coming of the Lord to reign as Lord of lords and King of kings at the commencement of the millennium” (Conference Report, April 1969, 132–33).',
+  },
+  {
+    id: 8,
+    author: "Joseph Fielding Smith",
+    tenure: "(1970-1972)",
+    quote: '“There is no doubt in my mind that the Lord raised the Prophet Joseph Smith up and gave him revelation, commandment, opened the heavens to him, and called upon him to stand at the head of this glorious dispensation. I am perfectly satisfied in my mind that in his youth, when he went out to pray, he beheld and stood in the actual presence of God the Father and His Son Jesus Christ; in my mind there is no doubt — I know this to be true. I know that he later received visitations from Moroni, the Aaronic Priesthood under the hands of John the Baptist, the Melchizedek Priesthood under the hands of Peter, James, and John, and that The Church of Jesus Christ of Latter-day Saints was organized on the sixth day of April 1830, by divine command” (“To Know For Ourselves,” Improvement Era, March 1970). ',
+  },
+  {
+    id: 9,
+    author: "David O. McKay",
+    tenure: "(1951-1970)",
+    quote: '“So far-reaching and significant were the wonderful discoveries and inventions of the latter half of [the 19th] century that they overwhelm us. … But none of them has answered man’s greatest need and man’s most yearning desire. Not one has yet revealed that for which man has sought for ages. That need — that ever-present yearning in man’s heart — is to know God, and man’s relation to him. … Only one event of the 19th century claims to give to the human soul this answer. If in that event man finds the truth for which the human race has ever sought, then it truly merits the distinguishing tribute of the greatest event of the 19th century! That event was the appearing of two heavenly Beings to the boy Prophet Joseph Smith, revealing the personal identity respectively of God the Eternal Father and of his Son Jesus Christ. … The world still does not comprehend its significance; but as a contributive factor to man’s knowledge of his relationship to Deity and of his place in the universe; as a means of establishing proper relationships between men as individuals and groups of men as nations; as a revelation pointing the way to man’s happiness and peace on earth as well as in the eternities to come, the appearing of the Father and the Son to Joseph Smith and the subsequent restoration of the priesthood and the establishing of the Church of Jesus Christ in its fulness, will yet be recognized not only as the greatest event of the 19th century, but as one of the greatest of all ages” (Teachings of Presidents of the Church: David O. McKay, 92-94).',
+  },
+  {
+    id: 10,
+    author: "George Albert Smith",
+    tenure: "(1945-1951)",
+    quote: '“In the year 1830, when this Church was organized, there was not upon the earth a church organization that would announce that they believed that God would reveal himself to the children of men. The teachings of the churches were all contrary to that, and our Father saw the futility of trying to save His sons and daughters until they could be inspired to come to Him with the belief that He would hear and answer their prayers. When the boy prophet, in the woods of Palmyra, saw the Father and the Son, and realized that they were indeed personages, that they could hear and reply to what he said, it began a new era in this world, and laid a foundation for the faith of the children of men. They could now pray to our Father in heaven and realize that He could hear and answer their prayers, that there was a connection between the heavens and the earth” (Conference Report, April 1917).',
+  },
+  {
+    id: 11,
+    author: "Heber J. Grant",
+    tenure: "(1918-1945)",
+    quote: '“The most glorious thing that has ever happened in the history of the world since the Savior Himself lived on earth, is that God Himself saw fit to visit the earth with His beloved, only begotten Son, our Redeemer and Savior, and to appear to the boy Joseph.The glory of the Lord overshadowed Joseph Smith, and God Himself, in the glory and majesty of His person, with His Only Begotten Son, Jehovah, revealed Himself in vision, and with His own voice designated Joseph Smith to be the instrument through whom the greatest gospel dispensation of the ages was to be ushered in.There was nothing of ostentation, pageantry or dramatic display; it was a simple, solemn occasion, superlatively glorious and impressive beyond expression.The voice of the Lord, which had been silent for ages, was heard again. Again that divine message, so oft repeated, was delivered: ‘This is my Beloved Son. Hear Him!’ The personality of the Father and His Only Begotten Son was again revealed that mankind may know them as they are” (Teachings of Presidents of the Church: Heber J. Grant, 16-17).',
+  },
+  {
+    id: 12,
+    author: "Joseph F. Smith",
+    tenure: "(1901-1918)",
+    quote: ' “The greatest event that has ever occurred in the world, since the resurrection of the Son of God from the tomb and His ascension on high, was the coming of the Father and of the Son to that boy Joseph Smith, to prepare the way for the laying of the foundation of His kingdom — not the kingdom of man — never more to cease nor to be overturned. Having accepted this truth, I find it easy to accept of every other truth that he enunciated and declared. … He never taught a doctrine that was not true. He never practiced a doctrine that he was not commanded to practice. He never advocated error. He was not deceived. He saw; he heard; he did as he was commanded to do; and, therefore, God is responsible for the work accomplished by Joseph Smith — not Joseph Smith. The Lord is responsible for it, and not man” (Gospel Doctrine, 495-96).',
+  },
+  {
+    id: 13,
+    author: "Lorenzo Snow",
+    tenure: "(1898-1901)",
+    quote: '“Joseph Smith was authorized to open up a channel and lay down a plan through which man could receive a knowledge of these things, so that we might not be left to depend upon the testimony of the Prophets, or the testimony of the ancient Apostles, or to the testimony of the Apostles of the present day, or to the Book of Mormon, or to anything that was done or said in the past, but that we might know for ourselves. It is an individual knowledge” (Deseret News, Nov. 22, 1882, 690).',
+  },
+  {
+    id: 14,
+    author: "Wilford Woodruff",
+    tenure: "(1889-1898)",
+    quote: '“I have never read anywhere, that I know of, of the same power manifested in any dispensation to the children of men, which was manifested to the Prophet of God in the organization of this Church, when the Father and the Son both appeared to the Prophet Joseph in answer to his prayer. … This was an important revelation, which has never been manifested in the same manner in any dispensation of the world, that God has given concerning His work. So in its organization, the Prophet of God was administered to by the angels of heaven. They were his teachers, they were his instructors, and all that he did, and all that he performed from the commencement, from that day to the day of his martyrdom, was by the revelation of Jesus Christ” (Millennial Star, April 28, 1890, 258).',
+  },
+  {
+    id: 15,
+    author: "John Taylor",
+    tenure: "(1880-1887)",
+    quote: '“In the commencement of the work, the Father and the Son appeared to Joseph Smith. And when they appeared to him, the Father, pointing to the Son, said, ‘This is my beloved Son, hear him.’ As much as to say, ‘I have not come to teach and instruct you; but I refer you to my Only Begotten, who is the Mediator of the New Covenant, the Lamb slain from before the foundation of the world; I refer you to Him as your Redeemer, your High Priest and Teacher. Hear Him’” (Journal of Discourses Vol. 26, p. 106).',
+  },
+  {
+    id: 16,
+    author: "Brigham Young",
+    tenure: "(1847-1877)",
+    quote: '“Joseph was naturally inclined to be religious, and being young, and surrounded with this excitement, no wonder that he became seriously impressed with the necessity of serving the Lord. But as the cry on every hand was, ‘Lo, here is Christ,’ and ‘Lo, there!’ Said he, ‘Lord, teach me, that I may know for myself, who among these are right.’ And what was the answer? ‘They are all out of the way; they have gone astray, and there is none that doeth good, no not one.’ When he found out that none were right, he began to inquire of the Lord what was right, and he learned for himself. Was he aware of what was going to be done? By no means. He did not know what the Lord was going to do with him” (Journal of Discourses, Vol. 12, p. 67).',
+  },
+  {
+    id: 17,
+    author: "Joseph Smith Jr.",
+    tenure: "(1832-1844)",
+    quote: '“So it was with me. I had actually seen a light, and in the midst of that light I saw two Personages, and they did in reality speak to me; and though I was hated and persecuted for saying that I had seen a vision, yet it was true; and while they were persecuting me, reviling me, and speaking all manner of evil against me falsely for so saying, I was led to say in my heart: Why persecute me for telling the truth? I have actually seen a vision; and who am I that I can withstand God, or why does the world think to make me deny what I have actually seen? For I had seen a vision; I knew it, and I knew that God knew it, and I could not deny it, neither dared I do it; at least I knew that by so doing I would offend God, and come under condemnation” (Joseph Smith–History 1:25).',
   },
 ]
 
